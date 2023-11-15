@@ -1,0 +1,24 @@
+{
+  "name": "apollo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2manycooks/Apollo-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2manycooks/Apollo-Project/issues"
+  },
+  "homepage": "https://github.com/2manycooks/Apollo-Project#readme",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1"
+  }
+}
