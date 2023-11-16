@@ -36,5 +36,14 @@ axios.get(url)
 
     const datestring = `${month} ${day}, ${year} at ${hour}:${minute} and ${seconds} seconds`
     const timestamp = quake.properties.time;
-    console.log(datestring)
+    
+
+    const customData = {
+        magnitude: quake.properties.mag,
+        location: quake.properties.place,
+        when: datestring,
+        time: timestamp,
+        id: quake.id
+    }
+    console.log(customData);
 });
