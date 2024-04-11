@@ -45,9 +45,8 @@ class QuakeAPI extends RESTDataSource {
         return {
             magnitude: quake.properties.mag,
             location: quake.properties.place,
-            cursor: `${quake.properties.time}`,
+            cursor: quake.properties.time,
             when: new Date(quake.properties.time),
-            time: quake.properties.time,
             id: quake.id
         }
     }
